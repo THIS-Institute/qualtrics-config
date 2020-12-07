@@ -1757,6 +1757,24 @@ h3.ui-accordion-header {
   list-style-type: circle;
 }
 
+/* line 1216, ../../GitHub/qualtrics-config/scss/sample.scss */
+.ChoiceStructure {
+  /*
+  .LabelWrapper {
+    display: inline-flex;
+    align-items: center;
+    width: auto !important;
+
+    label {
+      padding-right: 20px;
+    }
+
+    .TextEntryBox {
+      height: auto;
+    }
+  }*/
+}
+
 /* line 1217, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure li {
   vertical-align: middle;
@@ -1773,23 +1791,6 @@ h3.ui-accordion-header {
 /* line 1228, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure span {
   padding-left: 10px;
-}
-
-/* line 1232, ../../GitHub/qualtrics-config/scss/sample.scss */
-.ChoiceStructure .LabelWrapper {
-  display: inline-flex;
-  align-items: center;
-  width: auto !important;
-}
-
-/* line 1237, ../../GitHub/qualtrics-config/scss/sample.scss */
-.ChoiceStructure .LabelWrapper label {
-  padding-right: 20px;
-}
-
-/* line 1241, ../../GitHub/qualtrics-config/scss/sample.scss */
-.ChoiceStructure .LabelWrapper .TextEntryBox {
-  height: auto;
 }
 
 /* end of Rubber Cheese overrides */
