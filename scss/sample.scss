@@ -352,7 +352,7 @@ body#SurveyEngineBody {
   label.MultipleAnswer, label.SingleAnswer {
     background: #fefefe;
     border-radius: 6px;
-    padding: 13px 20px !important;
+    padding: 13px 16px !important;
     transition: box-shadow 400ms;
 
     span {
@@ -362,6 +362,7 @@ body#SurveyEngineBody {
       align-items: center;
       width: 100%;
       padding-bottom: 0 !important;
+      padding-left: 0;
     }
 
     &:hover {
@@ -445,6 +446,7 @@ body#SurveyEngineBody {
 
     li .LabelWrapper {
       margin: 0 0 4px 0;
+      padding: 0 0 0 0;
     }
 
     .DL .QuestionBody {
@@ -938,6 +940,10 @@ body#SurveyEngineBody {
   .MC .SAHR .QuestionBody table td .LabelWrapper label {
     padding-top: 50px !important;
     line-height: 1.38;
+  }
+
+  .MC .SAHR li {
+    padding: 0 0 0 0;
   }
 
   label.SingleAnswer {

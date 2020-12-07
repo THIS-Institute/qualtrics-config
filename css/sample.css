@@ -19,17 +19,14 @@
   font-weight: 400;
 }
 
-/* line 29, ../../GitHub/qualtrics-config/scss/sample.scss */
 html {
   box-sizing: border-box;
 }
 
-/* line 33, ../../GitHub/qualtrics-config/scss/sample.scss */
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/* line 37, ../../GitHub/qualtrics-config/scss/sample.scss */
 html {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   height: 100%;
@@ -37,7 +34,6 @@ html {
   color: #3a3c42;
 }
 
-/* line 44, ../../GitHub/qualtrics-config/scss/sample.scss */
 body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #3a3c42;
@@ -45,7 +41,6 @@ body#SurveyEngineBody {
 }
 
 /* define official THIS colours */
-/* line 51, ../../GitHub/qualtrics-config/scss/sample.scss */
 :root {
   --this-dark-grey: rgb(83, 86, 90);
   --this-light-grey: rgb(200, 201, 199);
@@ -59,17 +54,14 @@ body#SurveyEngineBody {
 }
 
 /* Rubber Cheese overrides */
-/* line 65, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope #SurveyEngineBody {
   height: auto;
 }
 
-/* line 69, ../../GitHub/qualtrics-config/scss/sample.scss */
 #HeaderContainer {
   display: none;
 }
 
-/* line 73, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
@@ -77,12 +69,10 @@ body#SurveyEngineBody {
   color: #3a3c42;
 }
 
-/* line 79, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #Wrapper {
   margin: 0 auto;
 }
 
-/* line 85, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #ProgressBar > div {
   background: #fff;
   width: 100%;
@@ -94,20 +84,17 @@ body#SurveyEngineBody {
   top: 0;
 }
 
-/* line 96, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #ProgressBar table {
   width: 100%;
   max-width: 1185px;
 }
 
-/* line 101, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #ProgressBar .ProgressBarFillContainer {
   height: 10px;
   border-radius: 5px;
   background: #d2d4d4;
 }
 
-/* line 108, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #ProgressBar tr td:first-child {
   color: #3a3c42;
   font-size: 14px;
@@ -116,7 +103,6 @@ body#SurveyEngineBody {
   padding-right: 10px;
 }
 
-/* line 115, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #ProgressBar tr td:first-child + td + td {
   color: #3a3c42;
   font-size: 14px;
@@ -125,30 +111,25 @@ body#SurveyEngineBody {
   padding-left: 10px;
 }
 
-/* line 126, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #ProgressBar .ProgressBarFill {
   background-color: #ffd959;
   height: 10px;
   border-radius: 5px;
 }
 
-/* line 133, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #Questions {
   overflow: visible;
 }
 
-/* line 137, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionOuter {
   overflow: visible;
   padding-bottom: 100px;
 }
 
-/* line 143, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .InnerInner > fieldset > legend {
   margin-bottom: 0 !important;
 }
 
-/* line 149, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText {
   color: #3a3c42;
   padding: 0;
@@ -159,7 +140,6 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 158, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText h1, .Skin .DB .QuestionText h2 {
   color: #3a3c42;
   font-size: 38px;
@@ -168,18 +148,15 @@ body#SurveyEngineBody {
   margin: 0 0 20px 0;
 }
 
-/* line 165, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText h1:last-child, .Skin .DB .QuestionText h2:last-child {
   margin-bottom: 0;
 }
 
-/* line 170, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText h2 {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* line 175, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText h3 {
   color: #3a3c42;
   font-size: 16px;
@@ -188,12 +165,10 @@ body#SurveyEngineBody {
   margin: 0 0 20px 0;
 }
 
-/* line 182, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText h3:last-child {
   margin-bottom: 0;
 }
 
-/* line 187, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText p {
   color: #3a3c42;
   font-size: 16px;
@@ -203,17 +178,14 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 195, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText p:last-child {
   margin-bottom: 0;
 }
 
-/* line 201, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 206, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText li {
   color: #3a3c42;
   font-size: 16px;
@@ -222,12 +194,10 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 214, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText ol {
   margin: 30px 0 0 0;
 }
 
-/* line 218, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText div {
   font-size: 24px;
   font-weight: 400;
@@ -236,17 +206,14 @@ body#SurveyEngineBody {
   line-height: 1.63;
 }
 
-/* line 226, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText .small {
   font-size: 16px;
 }
 
-/* line 229, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .DB .QuestionText .small li {
   font-size: 16px;
 }
 
-/* line 236, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText {
   color: #3a3c42;
   padding: 0;
@@ -257,7 +224,6 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 245, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText h1, .Skin .QuestionText h2 {
   color: #3a3c42;
   font-size: 38px;
@@ -266,18 +232,15 @@ body#SurveyEngineBody {
   margin: 0 0 20px 0;
 }
 
-/* line 252, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText h1:last-child, .Skin .QuestionText h2:last-child {
   margin-bottom: 0;
 }
 
-/* line 257, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText h2 {
   font-size: 24px;
   font-weight: bold;
 }
 
-/* line 262, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText h3 {
   color: #3a3c42;
   font-size: 16px;
@@ -286,12 +249,10 @@ body#SurveyEngineBody {
   margin: 0 0 20px 0;
 }
 
-/* line 269, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText h3:last-child {
   margin-bottom: 0;
 }
 
-/* line 274, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText p {
   color: #3a3c42;
   font-size: 16px;
@@ -301,17 +262,14 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 282, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText p:last-child {
   margin-bottom: 0;
 }
 
-/* line 288, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText ul:last-child {
   margin-bottom: 0;
 }
 
-/* line 293, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText li {
   color: #3a3c42;
   font-size: 16px;
@@ -320,25 +278,21 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-/* line 301, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText ol {
   margin: 30px 0 0 0;
 }
 
-/* line 306, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText.mandatory label:before {
   content: '*';
   color: #dd0031;
 }
 
-/* line 313, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #SkinContent {
   max-width: 700px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* line 319, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionBody {
   color: #3a3c42;
   font-size: 16px;
@@ -347,7 +301,6 @@ body#SurveyEngineBody {
   margin-top: 20px;
 }
 
-/* line 326, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionBody img {
   width: 100%;
   max-width: 100%;
@@ -355,39 +308,33 @@ body#SurveyEngineBody {
   border-radius: 6px;
 }
 
-/* line 334, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionBody .Choice img {
   width: auto;
 }
 
 @media (max-width: 770px) {
-  /* line 319, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .QuestionBody {
     padding: 0 !important;
   }
 }
 
 @media (min-width: 770px) {
-  /* line 319, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .QuestionBody {
     padding-bottom: 0 !important;
   }
 }
 
-/* line 348, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-checkbox.q-checked, .Skin label.q-checkbox.q-checked.q-focused {
   background: url(../images/tick.svg) center center/50% no-repeat !important;
 }
 
-/* line 352, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer, .Skin label.SingleAnswer {
   background: #fefefe;
   border-radius: 6px;
-  padding: 13px 20px !important;
+  padding: 13px 16px !important;
   transition: box-shadow 400ms;
 }
 
-/* line 358, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer span, .Skin label.SingleAnswer span {
   color: #616368;
   opacity: 1;
@@ -395,15 +342,14 @@ body#SurveyEngineBody {
   align-items: center;
   width: 100%;
   padding-bottom: 0 !important;
+  padding-left: 0;
 }
 
-/* line 367, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer:hover, .Skin label.SingleAnswer:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
 }
 
-/* line 372, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer > span::before, .Skin label.SingleAnswer > span::before {
   border-color: #dd0031;
   left: initial;
@@ -416,44 +362,37 @@ body#SurveyEngineBody {
   flex-shrink: 0;
 }
 
-/* line 384, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer.q-checked, .Skin label.MultipleAnswer.q-checked.q-focused, .Skin label.SingleAnswer.q-checked, .Skin label.SingleAnswer.q-checked.q-focused {
   background: #fefefe;
   border-radius: 6px;
   color: #3a3c42;
 }
 
-/* line 389, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer.q-checked > span::before, .Skin label.MultipleAnswer.q-checked.q-focused > span::before, .Skin label.SingleAnswer.q-checked > span::before, .Skin label.SingleAnswer.q-checked.q-focused > span::before {
   border-color: #dd0031 !important;
   background: #dd0031 !important;
   outline: none !important;
 }
 
-/* line 395, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer.q-checked:hover, .Skin label.MultipleAnswer.q-checked.q-focused:hover, .Skin label.SingleAnswer.q-checked:hover, .Skin label.SingleAnswer.q-checked.q-focused:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
 }
 
-/* line 401, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer.q-focused, .Skin label.SingleAnswer.q-focused {
   background: #fefefe;
   border-radius: 6px;
   color: #3a3c42;
 }
 
-/* line 406, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer.q-focused:hover, .Skin label.SingleAnswer.q-focused:hover {
   background: #fff;
 }
 
-/* line 414, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer > span::before {
   border-radius: 0;
 }
 
-/* line 418, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.MultipleAnswer > span::after {
   content: '';
   background: url(../images/tick.svg) no-repeat center;
@@ -464,39 +403,33 @@ body#SurveyEngineBody {
   left: 25px;
 }
 
-/* line 433, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.SingleAnswer.q-checked > span::before, .Skin label.SingleAnswer.q-checked.q-focused > span::before {
   border-color: #dd0031 !important;
   background: #dd0031 !important;
   outline: none !important;
 }
 
-/* line 442, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MC .SAVR .QuestionBody, .Skin .MC .MAVR .QuestionBody {
   overflow: visible;
 }
 
-/* line 446, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MC li .LabelWrapper {
   margin: 0 0 4px 0;
+  padding: 0 0 0 0;
 }
 
-/* line 450, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MC .DL .QuestionBody {
   padding: 0 !important;
 }
 
-/* line 454, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MC .SACOL .ChoiceStructure {
   border-spacing: 2px 0;
 }
 
-/* line 459, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .select-input {
   position: relative;
 }
 
-/* line 462, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .select-input:after {
   background: url(../images/up.svg) no-repeat center/contain;
   content: '';
@@ -507,7 +440,6 @@ body#SurveyEngineBody {
   top: 22px;
 }
 
-/* line 473, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin select {
   appearance: none;
   background: #fefefe;
@@ -521,7 +453,6 @@ body#SurveyEngineBody {
   color: rgba(58, 60, 66, 0.8);
 }
 
-/* line 486, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin input[type="text"], .Skin .InputText, .Skin .TE .SL .InputText, .Skin .TE .ML .InputText {
   appearance: none;
   background: #fefefe !important;
@@ -535,23 +466,19 @@ body#SurveyEngineBody {
   transition: box-shadow 400ms;
 }
 
-/* line 498, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin input[type="text"]:hover, .Skin .InputText:hover, .Skin .TE .SL .InputText:hover, .Skin .TE .ML .InputText:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
   border: solid 1px #d2d4d3;
 }
 
-/* line 503, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin input[type="text"]:focus, .Skin .InputText:focus, .Skin .TE .SL .InputText:focus, .Skin .TE .ML .InputText:focus {
   border: solid 1px #adadad;
 }
 
-/* line 507, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin input[type="text"].FailedValidation, .Skin .InputText.FailedValidation, .Skin .TE .SL .InputText.FailedValidation, .Skin .TE .ML .InputText.FailedValidation {
   border-color: #dd0031;
 }
 
-/* line 512, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin textarea, .Skin .TE textarea, .Skin .TE .ML textarea, .Skin .MC .TextEntryBox, .Skin .TextEntryBox {
   background: #fefefe !important;
   border-radius: 6px;
@@ -565,14 +492,12 @@ body#SurveyEngineBody {
   padding: 14px 20px !important;
 }
 
-/* line 525, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .dropzone {
   background: #fff;
   border: 1px dashed #d2d4d3;
   border-radius: 6px;
 }
 
-/* line 530, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .dropzone button {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #3a3c42;
@@ -580,20 +505,17 @@ body#SurveyEngineBody {
   line-height: 1.75;
 }
 
-/* line 537, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .dropzone:hover {
   background: #fff;
 }
 
 @media (min-width: 770px) {
-  /* line 543, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .SkinInner {
     width: 100%;
     max-width: 100%;
   }
 }
 
-/* line 550, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
   border-radius: 25px;
   background: #dd0031;
@@ -606,32 +528,27 @@ body#SurveyEngineBody {
   padding: 15px 40px;
 }
 
-/* line 561, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #Buttons #NextButton:hover, .Skin #Buttons #NextButton:active, .Skin #Buttons #NextButton:focus, .Skin #Buttons #PreviousButton:hover, .Skin #Buttons #PreviousButton:active, .Skin #Buttons #PreviousButton:focus {
   background: #fff;
   color: #dd0031;
   border-color: #dd0031;
 }
 
-/* line 568, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #Buttons #PreviousButton {
   background: initial;
   color: #dd0031;
 }
 
 @media (max-width: 450px) {
-  /* line 549, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin #Buttons {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 577, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin #Buttons #NextButton, .Skin #Buttons .btn:first-of-type {
     margin-bottom: 20px;
   }
 }
 
-/* line 583, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .btn {
   border-radius: 25px;
   background: #dd0031;
@@ -644,30 +561,25 @@ body#SurveyEngineBody {
   padding: 15px 40px;
 }
 
-/* line 594, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .btn:hover, .Skin .btn:active, .Skin .btn:focus {
   background: #fff;
   color: #dd0031;
   border-color: #dd0031;
 }
 
-/* line 600, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .btn.prev-btn {
   background: initial;
   color: #dd0031;
 }
 
-/* line 606, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionOuter.Highlight .Inner {
   border: none;
 }
 
-/* line 610, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionOuter .Inner {
   border: none;
 }
 
-/* line 614, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .ValidationError {
   background-position: left center;
   line-height: 2;
@@ -675,13 +587,11 @@ body#SurveyEngineBody {
 }
 
 @media (max-width: 770px) {
-  /* line 614, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .ValidationError {
     margin-left: 0 !important;
   }
 }
 
-/* line 626, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul li {
   background: #fefefe;
   border-radius: 6px;
@@ -689,7 +599,6 @@ body#SurveyEngineBody {
   position: relative;
 }
 
-/* line 632, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul li:after {
   content: '';
   background: url(../images/icon-drag-dots.svg) no-repeat;
@@ -701,33 +610,27 @@ body#SurveyEngineBody {
   top: 14px;
 }
 
-/* line 643, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul li:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
 }
 
-/* line 647, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul li:hover .rank {
   background: #f2a5ba;
 }
 
-/* line 654, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul.Edited .rank {
   background: #f2a5ba;
 }
 
-/* line 660, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul.NotEdited .rank {
   visibility: visible;
 }
 
-/* line 665, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul.NotEdited li:hover .rank {
   background: #f2a5ba;
 }
 
-/* line 671, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul .rank {
   background: #f2a5ba;
   width: 20px;
@@ -745,7 +648,6 @@ body#SurveyEngineBody {
   font-size: 14px;
 }
 
-/* line 688, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul .ui-sortable-placeholder {
   border-radius: 6px;
   border: solid 2px #cdcdcd;
@@ -754,12 +656,10 @@ body#SurveyEngineBody {
   background: #efefee;
 }
 
-/* line 695, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND ul .ui-sortable-placeholder:after {
   display: none;
 }
 
-/* line 704, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .rank {
   background: #f2a5ba;
   width: 20px;
@@ -779,17 +679,14 @@ body#SurveyEngineBody {
   margin-right: 10px;
 }
 
-/* line 723, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .QuestionBody {
   overflow: visible;
 }
 
-/* line 727, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Group {
   width: 100%;
 }
 
-/* line 729, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Group h2 {
   background: #ffd959;
   color: #3a3c42;
@@ -804,27 +701,23 @@ body#SurveyEngineBody {
   width: 100%;
 }
 
-/* line 744, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .stack tr {
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 600px) {
-  /* line 744, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .PGR .DragAndDrop .stack tr {
     flex-direction: column;
   }
 }
 
-/* line 753, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop td.itemsContainerTd {
   width: 290px;
   margin-right: 20px;
 }
 
 @media (max-width: 600px) {
-  /* line 753, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .PGR .DragAndDrop td.itemsContainerTd {
     margin-right: 0;
     margin-bottom: 20px;
@@ -832,13 +725,11 @@ body#SurveyEngineBody {
   }
 }
 
-/* line 764, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop td.groupsContainerTd {
   flex-basis: 330px;
   margin-left: 20px;
 }
 
-/* line 768, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop td.groupsContainerTd div > div {
   border: solid 1px #d2d4d3;
   border-top-right-radius: 6px;
@@ -847,14 +738,12 @@ body#SurveyEngineBody {
 }
 
 @media (max-width: 600px) {
-  /* line 764, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .PGR .DragAndDrop td.groupsContainerTd {
     margin-left: 0;
     width: 100%;
   }
 }
 
-/* line 783, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items .ui-sortable-placeholder {
   border-radius: 6px;
   border: solid 2px #cdcdcd;
@@ -863,17 +752,14 @@ body#SurveyEngineBody {
   background: #efefee;
 }
 
-/* line 790, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items .ui-sortable-placeholder:after {
   display: none;
 }
 
-/* line 795, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items > ul {
   width: 100%;
 }
 
-/* line 798, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items > ul > li {
   box-sizing: border-box;
   background: #fefefe;
@@ -888,7 +774,6 @@ body#SurveyEngineBody {
   align-items: center;
 }
 
-/* line 811, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items > ul > li:after {
   content: '';
   background: url(../images/icon-drag-dots.svg) no-repeat;
@@ -900,24 +785,20 @@ body#SurveyEngineBody {
   top: 14px;
 }
 
-/* line 822, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items > ul > li:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
   padding: 10px 20px;
 }
 
-/* line 827, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .Items > ul > li:hover .rank {
   background: #f2a5ba;
 }
 
-/* line 835, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .QuestionBody .Group > div > ul {
   width: 100%;
 }
 
-/* line 838, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .QuestionBody .Group > div > ul > li {
   background: #fefefe;
   border-radius: 6px;
@@ -931,7 +812,6 @@ body#SurveyEngineBody {
   align-items: center;
 }
 
-/* line 850, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .QuestionBody .Group > div > ul > li:after {
   content: '';
   background: url(../images/icon-drag-dots.svg) no-repeat;
@@ -943,25 +823,21 @@ body#SurveyEngineBody {
   top: 14px;
 }
 
-/* line 861, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .QuestionBody .Group > div > ul > li:hover {
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
   background: #fff;
   padding: 10px 20px;
 }
 
-/* line 866, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .PGR .DragAndDrop .QuestionBody .Group > div > ul > li:hover .rank {
   background: #f2a5ba;
 }
 
-/* line 874, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .HLTextWords {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 879, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .HLTextWord {
   border-radius: 6px;
   background-color: #fefefe;
@@ -973,116 +849,100 @@ body#SurveyEngineBody {
   color: #3a3c42;
 }
 
-/* line 889, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .HLTextWord:hover {
   background-color: #bdbdbd !important;
   color: #3a3c42 !important;
 }
 
-/* line 895, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-checkbox {
   border-color: #dd0031;
 }
 
-/* line 898, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-checkbox.q-checked {
   background-color: #dd0031 !important;
   border: none;
 }
 
-/* line 902, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-checkbox.q-checked.q-focused {
   background-color: #dd0031 !important;
   border: none;
 }
 
-/* line 909, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MAHR td label.q-checkbox {
   top: 20px;
 }
 
-/* line 913, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MC .MAHR .QuestionBody table td .LabelWrapper label {
   padding-top: 50px !important;
   line-height: 1.38;
 }
 
-/* line 918, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-radio {
   border-color: #dd0031;
   animation: none !important;
   cursor: pointer;
 }
 
-/* line 923, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-radio.q-checked {
   background-color: #dd0031;
   border-color: #dd0031;
 }
 
-/* line 927, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin label.q-radio.q-checked.q-focused {
   background-color: #dd0031;
   border-color: #dd0031;
 }
 
-/* line 934, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .SAHR td label.q-radio {
   top: 20px;
 }
 
-/* line 938, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .MC .SAHR .QuestionBody table td .LabelWrapper label {
   padding-top: 50px !important;
   line-height: 1.38;
 }
 
-/* line 943, ../../GitHub/qualtrics-config/scss/sample.scss */
+.Skin .MC .SAHR li {
+  padding: 0 0 0 0;
+}
+
 .Skin label.SingleAnswer {
   display: flex;
   align-items: center;
   line-height: 1.38;
 }
 
-/* line 949, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .HLTextToolTipBox .HLTextRemove {
   color: #dd0031;
   font-size: 16px;
 }
 
-/* line 954, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .Separator {
   display: none;
 }
 
-/* line 958, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .EndOfSurvey {
   color: #3a3c42;
   font-size: 16px;
   line-height: 1.63;
 }
 
-/* line 965, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .q-matrix .table-cell {
   color: #3a3c42;
 }
 
-/* line 969, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .q-matrix th {
   color: #3a3c42;
 }
 
-/* line 975, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .q-matrix tbody td .q-radio {
   margin-top: 5px;
 }
 
-/* line 982, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .RO .DND li:nth-child(-1n+9) span.rank {
   margin-right: 10px;
 }
 
-/* line 986, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin #Plug {
   position: relative;
   right: 0;
@@ -1090,62 +950,51 @@ body#SurveyEngineBody {
 }
 
 @media (max-width: 768px) {
-  /* line 986, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin #Plug {
     position: relative;
   }
 }
 
-/* line 996, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin table.ChoiceStructure {
   margin-top: 40px;
 }
 
-/* line 999, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin table.ChoiceStructure th, .Skin table.ChoiceStructure td {
   border: 0 !important;
 }
 
-/* line 1003, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin table.ChoiceStructure .Choice {
   background: #fff;
   border-bottom: 4px solid #efefee;
 }
 
-/* line 1009, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin table.ChoiceStructure .RepeatHeader td {
   padding: 40px 0;
 }
 
-/* line 1015, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .SBS .QuestionBody {
   color: #3a3c42;
 }
 
 @media only screen and (min-width: 767px) {
-  /* line 1021, ../../GitHub/qualtrics-config/scss/sample.scss */
   .Skin .CS .VRTL li:hover, .Skin .Choice:hover, .Skin .ChoiceRow:hover, .Skin .RO .RB tr:hover {
     background: #fff;
   }
 }
 
 /* End .Skin */
-/* line 1028, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone:not(.dz-max-files-reached):hover, .JFEScope .dropzone.dz-drag-hover {
   background: #fff;
 }
 
-/* line 1032, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview {
   margin: 0;
 }
 
-/* line 1036, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview {
   min-height: auto;
 }
 
-/* line 1038, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-image {
   width: 60px;
   height: 60px;
@@ -1156,7 +1005,6 @@ body#SurveyEngineBody {
   flex-shrink: 0;
 }
 
-/* line 1047, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-image img {
   max-width: initial;
   width: 60px;
@@ -1166,31 +1014,26 @@ body#SurveyEngineBody {
   transform: translate(-50%, -50%);
 }
 
-/* line 1058, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview.dz-file-preview .dz-image {
   border-radius: 50%;
   background: #fff url(../images/icon-file.svg) center no-repeat;
 }
 
-/* line 1065, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview.dz-image-preview {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-/* line 1071, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview.dz-image-preview.dz-complete .dz-progress {
   display: block;
   opacity: 1;
 }
 
-/* line 1075, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview.dz-image-preview.dz-complete .dz-progress .dz-upload {
   background: #356904;
 }
 
-/* line 1082, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-progress {
   background: #efefee;
   height: 4px;
@@ -1198,18 +1041,15 @@ body#SurveyEngineBody {
   overflow: hidden;
 }
 
-/* line 1088, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-progress .dz-upload {
   background: #ffd959;
   transition: background 2s ease-in;
 }
 
-/* line 1093, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-progress .dz-upload-back {
   display: none;
 }
 
-/* line 1098, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-image-preview .dz-details {
   text-shadow: none;
   position: relative;
@@ -1218,23 +1058,19 @@ body#SurveyEngineBody {
   text-align: left;
 }
 
-/* line 1105, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-image-preview .dz-details .dz-size, .JFEScope .dropzone .dz-image-preview .dz-details .dz-type {
   display: none;
 }
 
-/* line 1110, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-details div {
   opacity: 1;
 }
 
-/* line 1114, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview:hover .dz-image img {
   filter: none;
   transform: translate(-50%, -50%);
 }
 
-/* line 1120, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .dropzone .dz-preview .dz-details .dz-size, .JFEScope .dropzone .dz-preview .dz-details .dz-type {
   display: none;
 }
@@ -1263,28 +1099,23 @@ body#SurveyEngineBody {
   }
 }
 
-/* line 1149, ../../GitHub/qualtrics-config/scss/sample.scss */
 .pace {
   display: block !important;
 }
 
-/* line 1153, ../../GitHub/qualtrics-config/scss/sample.scss */
 .pace .pace-progress {
   background: #dd0031 !important;
 }
 
-/* line 1157, ../../GitHub/qualtrics-config/scss/sample.scss */
 .pace .pace-progress-inner {
   box-shadow: 0 0 10px #dd0031, 0 0 5px #dd0031 !important;
 }
 
-/* line 1161, ../../GitHub/qualtrics-config/scss/sample.scss */
 .pace .pace-activity {
   border-top-color: #dd0031 !important;
   border-left-color: #dd0031 !important;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbOverlay, .slbWrapOuter, .slbWrap {
   position: fixed;
   top: 0;
@@ -1293,7 +1124,6 @@ body#SurveyEngineBody {
   left: 0;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbOverlay {
   overflow: hidden;
   z-index: 2000;
@@ -1304,20 +1134,17 @@ body#SurveyEngineBody {
   animation: slbOverlay 0.5s;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbWrapOuter {
   overflow-x: hidden;
   overflow-y: auto;
   z-index: 2010;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbWrap {
   position: absolute;
   text-align: center;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbWrap:before {
   content: "";
   display: inline-block;
@@ -1325,7 +1152,6 @@ body#SurveyEngineBody {
   vertical-align: middle;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbContentOuter {
   position: relative;
   display: inline-block;
@@ -1338,17 +1164,14 @@ body#SurveyEngineBody {
   max-width: 100%;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbContentEl .slbContentOuter {
   padding: 5em 1em;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbContent {
   position: relative;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbContentEl .slbContent {
   -webkit-animation: slbEnter 0.3s;
   -moz-animation: slbEnter 0.3s;
@@ -1357,7 +1180,6 @@ body#SurveyEngineBody {
   box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.4);
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbImageWrap {
   -webkit-animation: slbEnter 0.3s;
   -moz-animation: slbEnter 0.3s;
@@ -1365,7 +1187,6 @@ body#SurveyEngineBody {
   position: relative;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbImageWrap:after {
   content: "";
   position: absolute;
@@ -1379,21 +1200,18 @@ body#SurveyEngineBody {
   background-color: #FFF;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbDirectionNext .slbImageWrap {
   -webkit-animation: slbEnterNext 0.4s;
   -moz-animation: slbEnterNext 0.4s;
   animation: slbEnterNext 0.4s;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbDirectionPrev .slbImageWrap {
   -webkit-animation: slbEnterPrev 0.4s;
   -moz-animation: slbEnterPrev 0.4s;
   animation: slbEnterPrev 0.4s;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbImage {
   width: auto;
   max-width: 100%;
@@ -1405,7 +1223,6 @@ body#SurveyEngineBody {
   margin: 0 auto;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbCaption {
   display: inline-block;
   max-width: 100%;
@@ -1424,7 +1241,6 @@ body#SurveyEngineBody {
   text-align: center;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbCloseBtn, .slbArrow {
   margin: 0;
   padding: 0;
@@ -1433,23 +1249,19 @@ body#SurveyEngineBody {
   background: none;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbCloseBtn::-moz-focus-inner, .slbArrow::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbCloseBtn:hover, .slbArrow:hover {
   opacity: 0.5;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbCloseBtn:active, .slbArrow:active {
   opacity: 0.8;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbCloseBtn {
   -webkit-animation: slbEnter 0.3s;
   -moz-animation: slbEnter 0.3s;
@@ -1466,19 +1278,16 @@ body#SurveyEngineBody {
   text-align: center;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbLoading .slbCloseBtn {
   display: none;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbLoadingText {
   font-size: 1.4em;
   color: #fff;
   color: rgba(255, 255, 255, 0.9);
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrows {
   position: fixed;
   top: 50%;
@@ -1486,12 +1295,10 @@ body#SurveyEngineBody {
   right: 0;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbLoading .slbArrows {
   display: none;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrow {
   position: absolute;
   top: 50%;
@@ -1503,7 +1310,6 @@ body#SurveyEngineBody {
   overflow: hidden;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrow:before {
   content: "";
   position: absolute;
@@ -1513,27 +1319,22 @@ body#SurveyEngineBody {
   border: .8em solid transparent;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrow.next {
   right: 0;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrow.next:before {
   border-left-color: #fff;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrow.prev {
   left: 0;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbArrow.prev:before {
   border-right-color: #fff;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbIframeCont {
   width: 80em;
   height: 0;
@@ -1542,7 +1343,6 @@ body#SurveyEngineBody {
   margin: 5em 0;
 }
 
-/* line 1168, ../../GitHub/qualtrics-config/scss/sample.scss */
 .slbIframe {
   position: absolute;
   top: 0;
@@ -1703,95 +1503,77 @@ body#SurveyEngineBody {
   }
 }
 
-/* line 1171, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar {
   display: flex;
   flex-direction: column;
 }
 
-/* line 1175, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar .labels-container {
   order: 2;
 }
 
-/* line 1179, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar .slider-container {
   order: 1;
 }
 
-/* line 1183, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar td.BarOuter {
   padding-bottom: 20px !important;
 }
 
-/* line 1187, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar .numbers li {
   color: #ef0029 !important;
 }
 
-/* line 1191, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar .Slider .handle {
   background-color: #ef0029 !important;
   border-color: #ef0029 !important;
 }
 
-/* line 1196, ../../GitHub/qualtrics-config/scss/sample.scss */
 .q-slider .horizontalbar .sliderToolTipBox {
   color: #ef0029 !important;
 }
 
-/* line 1202, ../../GitHub/qualtrics-config/scss/sample.scss */
 .JFEScope .ui-state-active, .JFEScope .ui-widget-content .ui-state-active, .JFEScope .ui-widget-header .ui-state-active {
   border: 1px solid #DD0031;
   background: #DD0031;
 }
 
-/* line 1207, ../../GitHub/qualtrics-config/scss/sample.scss */
 h3.ui-accordion-header {
   margin-bottom: 0 !important;
   margin-top: 2px !important;
 }
 
-/* line 1212, ../../GitHub/qualtrics-config/scss/sample.scss */
 .Skin .QuestionText ul li {
   list-style-type: circle;
 }
 
-/* line 1217, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure li {
   vertical-align: middle;
   display: block;
 }
 
-/* line 1222, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure input[type=text].RankInput {
   width: 70px !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 1228, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure span {
   padding-left: 10px;
 }
 
-/* line 1232, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure .LabelWrapper {
   display: inline-flex;
   align-items: center;
   width: auto !important;
 }
 
-/* line 1237, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure .LabelWrapper label {
   padding-right: 20px;
 }
 
-/* line 1241, ../../GitHub/qualtrics-config/scss/sample.scss */
 .ChoiceStructure .LabelWrapper .TextEntryBox {
   height: auto;
 }
 
 /* end of Rubber Cheese overrides */
-
-/*# sourceMappingURL=sample.css.map */
