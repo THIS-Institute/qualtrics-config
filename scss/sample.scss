@@ -1231,11 +1231,6 @@ h3.ui-accordion-header {
     padding-right: 0 !important;
   }
 
-  span {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .LabelWrapper {
     display: inline-flex;
     align-items: center;
@@ -1249,6 +1244,10 @@ h3.ui-accordion-header {
       height: auto;
     }
   }
+}
+
+.ChoiceStructure li .LabelWrapper span {
+  padding-left: 10px;
 }
 
 /* end of Rubber Cheese overrides */
