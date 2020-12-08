@@ -1564,10 +1564,6 @@ h3.ui-accordion-header {
   width: auto !important;
 }
 
-.ChoiceStructure .LabelWrapper label {
-  padding-right: 20px;
-}
-
 .ChoiceStructure .LabelWrapper .TextEntryBox {
   height: auto;
 }
@@ -1578,6 +1574,10 @@ h3.ui-accordion-header {
 
 .ChoiceStructure li .LabelWrapper .LabelPositionSIDE span {
   padding-left: 0;
+}
+
+.ChoiceStructure li .LabelWrapper .LabelPositionSIDE label {
+  padding-right: 20px;
 }
 
 /* end of Rubber Cheese overrides */
