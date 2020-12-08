@@ -1576,4 +1576,8 @@ h3.ui-accordion-header {
   padding-left: 10px;
 }
 
+.ChoiceStructure li .LabelWrapper .LabelPositionSIDE span {
+  padding-left: 0;
+}
+
 /* end of Rubber Cheese overrides */
