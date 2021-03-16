@@ -137,3 +137,27 @@
     $('.lightbox').simpleLightbox();
 
 })(jQuery);
+
+
+function addModal(modalId, btnId, closeId) {
+    const modal = document.getElementById(modalId);
+    const btn = document.getElementById(btnId);
+    const close = document.getElementById(closeId);
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on close element (x), close the modal
+    close.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+}
