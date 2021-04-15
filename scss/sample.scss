@@ -389,7 +389,7 @@ body#SurveyEngineBody {
 
       > span::before {
         border-color: $color-red !important;
-        background: $color-red !important;
+        background: $color-red url(../images/tick.svg) no-repeat center center !important;
         outline: none !important;
       }
 
@@ -421,7 +421,7 @@ body#SurveyEngineBody {
     &.q-checked, &.q-checked.q-focused {
       > span::before {
         border-color: $color-red !important;
-        background: $color-red url(../images/tick.svg) no-repeat center center !important;
+        background: $color-red !important;
         outline: none !important;
       }
     }
