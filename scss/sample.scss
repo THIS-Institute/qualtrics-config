@@ -415,25 +415,13 @@ body#SurveyEngineBody {
     >span::before {
       border-radius: 0;
     }
-
-    >span::after {
-      content: '';
-      background: url(../images/tick.svg) no-repeat center;
-      background-size: cover;
-      width: 10px;
-      height: 8px;
-      position: absolute;
-      left: 30px;
-      // top: 22px;
-    }
   }
 
   label.SingleAnswer {
     &.q-checked, &.q-checked.q-focused {
-
       > span::before {
         border-color: $color-red !important;
-        background: $color-red !important;
+        background: $color-red url(../images/tick.svg) no-repeat center center !important;
         outline: none !important;
       }
     }

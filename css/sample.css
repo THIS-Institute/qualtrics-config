@@ -290,17 +290,9 @@ body#SurveyEngineBody {
         background: #fff; }
   .Skin label.MultipleAnswer > span::before {
     border-radius: 0; }
-  .Skin label.MultipleAnswer > span::after {
-    content: '';
-    background: url(../images/tick.svg) no-repeat center;
-    background-size: cover;
-    width: 10px;
-    height: 8px;
-    position: absolute;
-    left: 30px; }
   .Skin label.SingleAnswer.q-checked > span::before, .Skin label.SingleAnswer.q-checked.q-focused > span::before {
     border-color: #dd0031 !important;
-    background: #dd0031 !important;
+    background: #dd0031 url(../images/tick.svg) no-repeat center center !important;
     outline: none !important; }
   .Skin .MC .SAVR .QuestionBody, .Skin .MC .MAVR .QuestionBody {
     overflow: visible; }
