@@ -389,7 +389,7 @@ body#SurveyEngineBody {
 
       > span::before {
         border-color: $color-red !important;
-        background: $color-red !important;
+        background: $color-red url(../images/tick.svg) no-repeat center center !important;
         outline: none !important;
       }
 
@@ -415,22 +415,10 @@ body#SurveyEngineBody {
     >span::before {
       border-radius: 0;
     }
-
-    >span::after {
-      content: '';
-      background: url(../images/tick.svg) no-repeat center;
-      background-size: cover;
-      width: 10px;
-      height: 8px;
-      position: absolute;
-      left: 25px;
-      // top: 22px;
-    }
   }
 
   label.SingleAnswer {
     &.q-checked, &.q-checked.q-focused {
-
       > span::before {
         border-color: $color-red !important;
         background: $color-red !important;
@@ -1231,23 +1219,28 @@ h3.ui-accordion-header {
     padding-right: 0 !important;
   }
 
-  span {
-    padding-left: 10px;
-  }
-
   .LabelWrapper {
     display: inline-flex;
     align-items: center;
     width: auto !important;
 
-    label {
-      padding-right: 20px;
-    }
-
     .TextEntryBox {
       height: auto;
     }
   }
+}
+
+.ChoiceStructure li .LabelWrapper span {
+  padding-left: 10px;
+}
+
+.ChoiceStructure li .LabelWrapper .LabelPositionSIDE span {
+  padding-left: 0;
+  padding-right: 0 !important;
+}
+
+.ChoiceStructure li .LabelWrapper label span {
+  padding-right: 20px;
 }
 
 /* end of Rubber Cheese overrides */
