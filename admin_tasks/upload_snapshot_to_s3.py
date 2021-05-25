@@ -19,7 +19,9 @@ import local.dev_config  # sets env variables TEST_ON_AWS and AWS_TEST_API
 import local.secrets  # sets env variables THISCOVERY_AFS25_PROFILE and THISCOVERY_AMP205_PROFILE
 import os
 import subprocess
+import thiscovery_lib.utilities as utils
 from thiscovery_lib.s3_utilities import Transfer
+from thiscovery_lib.ssm_utilities import SsmClient
 
 
 BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -29,28 +31,36 @@ FILES_TO_TRANSFER = [
 ]
 
 
-def get_git_revision():
-    return subprocess.run(
-        ["git", "rev-parse", "HEAD"],
-        capture_output=True,
-        check=True,
-        text=True,
-    ).stdout.strip()
+class S3transferManager:
+    def __init__(self):
+        ssm_client = SsmClient()
+        self.bucket_name = ssm_client.get_parameter("qualtrics")["static-files-bucket"]
+        self.logger = utils.get_logger()
 
+    @staticmethod
+    def get_git_revision():
+        return subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            capture_output=True,
+            check=True,
+            text=True,
+        ).stdout.strip()
 
-def main(s3_folder_name=None):
-    if s3_folder_name is None:
-        s3_folder_name = input("Please enter the target S3 folder name:").strip()
-    revision = get_git_revision()
-    transfer_client = Transfer()
-    for folder, file in FILES_TO_TRANSFER:
-        transfer_client.upload_public_file(
-            file_path=os.path.join(BASE_DIR, folder, file),
-            bucket_name="qualtrics-config-afs25",
-            s3_path=f"{s3_folder_name}/{file}",
-            **{"Metadata": {"revision": revision}},
-        )
+    def main(self, s3_folder_name=None):
+        if s3_folder_name is None:
+            s3_folder_name = input("Please enter the target S3 folder name:").strip()
+        revision = self.get_git_revision()
+        transfer_client = Transfer()
+        self.logger.debug("Bucket", extra={"bucket_name": self.bucket_name})
+        for folder, file in FILES_TO_TRANSFER:
+            transfer_client.upload_public_file(
+                file_path=os.path.join(BASE_DIR, folder, file),
+                bucket_name=self.bucket_name,
+                s3_path=f"{s3_folder_name}/{file}",
+                **{"Metadata": {"revision": revision}},
+            )
 
 
 if __name__ == "__main__":
-    main()
+    s3_transfer_manager = S3transferManager()
+    s3_transfer_manager.main()
