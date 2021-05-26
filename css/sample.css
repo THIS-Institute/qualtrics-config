@@ -43,7 +43,7 @@ body#SurveyEngineBody {
   --this-bright-blue: rgb(91, 194, 231);
   --this-pale-blue: rgb(143, 172, 217);
   --this-green: rgb(0, 187, 126);
-  --this-pink: rgb(232, 156, 174);
+  --this-pink: rgb(243, 165, 185);
   --this-aubergine: rgb(108, 29, 69);
   --this-yellow: $color-yellow; }
 
@@ -89,7 +89,7 @@ body#SurveyEngineBody {
       line-height: 1.63;
       padding-left: 10px; }
   .Skin #ProgressBar .ProgressBarFill {
-    background-color: #ffd959;
+    background-color: #ffd85a;
     height: 10px;
     border-radius: 5px; }
   .Skin #Questions {
@@ -518,7 +518,7 @@ body#SurveyEngineBody {
   .Skin .PGR .DragAndDrop .Group {
     width: 100%; }
     .Skin .PGR .DragAndDrop .Group h2 {
-      background: #ffd959;
+      background: #ffd85a;
       color: #3a3c42;
       font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 16px;
@@ -811,7 +811,7 @@ body#SurveyEngineBody {
   border-radius: 4px;
   overflow: hidden; }
   .JFEScope .dropzone .dz-preview .dz-progress .dz-upload {
-    background: #ffd959;
+    background: #ffd85a;
     -webkit-transition: background 2s ease-in;
     -o-transition: background 2s ease-in;
     transition: background 2s ease-in; }
@@ -1233,3 +1233,12 @@ h3.ui-accordion-header {
 
 .ChoiceStructure li .LabelWrapper label span {
   padding-right: 20px; }
+
+.thiscovery-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .thiscovery-box.error {
+    background-color: #f3a5b9; }
+  .thiscovery-box.alert {
+    background-color: #ffd85a; }

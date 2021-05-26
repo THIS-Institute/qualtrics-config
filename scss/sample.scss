@@ -24,9 +24,14 @@ $font-bold: "Brown-Bold", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-s
 $font-light: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
 //endregion
 
+//region Colours
 $color-black: #3a3c42;
-$color-yellow: #ffd959;
+$color-grey: #d2d4d3;
+$color-yellow: #ffd85a;
 $color-red: #dd0031;
+$color-pink: #f3a5b9;
+$color-aubergine: #680436;
+//endregion
 
 html {
   box-sizing: border-box;
@@ -57,7 +62,7 @@ body#SurveyEngineBody {
   --this-bright-blue: rgb(91, 194, 231);
   --this-pale-blue: rgb(143, 172, 217);
   --this-green: rgb(0, 187, 126);
-  --this-pink: rgb(232, 156, 174);
+  --this-pink: rgb(243, 165, 185);
   --this-aubergine: rgb(108, 29, 69);
   --this-yellow: $color-yellow;
 }
@@ -1247,3 +1252,16 @@ h3.ui-accordion-header {
   padding-right: 20px;
 }
 
+//region ThiscoveryBoxes
+.thiscovery-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  &.error {
+    background-color: $color-pink;
+  }
+  &.alert {
+    background-color: $color-yellow;
+  }
+}
+//endregion
