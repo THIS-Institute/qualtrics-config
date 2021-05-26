@@ -1,3 +1,4 @@
+//region Font
 @font-face {
   font-family:"Brown-Regular";
   src:url("https://www.thiscovery.org/wp-content/themes/thiscovery/fonts/Brown-Regular.woff2") format("woff2"),url("https://www.thiscovery.org/wp-content/themes/thiscovery/fonts/Brown-Regular.woff") format("woff"),url("https://www.thiscovery.org/wp-content/themes/thiscovery/fonts/Brown-Regular.otf") format("opentype");
@@ -21,6 +22,7 @@ $font-bold: "Brown-Bold", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-s
 }
 
 $font-light: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+//endregion
 
 $color-black: #3a3c42;
 $color-yellow: #ffd959;
@@ -59,8 +61,6 @@ body#SurveyEngineBody {
   --this-aubergine: rgb(108, 29, 69);
   --this-yellow: $color-yellow;
 }
-
-/* Rubber Cheese overrides */
 
 .JFEScope #SurveyEngineBody {
   height: auto;
@@ -288,14 +288,17 @@ body#SurveyEngineBody {
       &:last-child {
         margin-bottom: 0;
       }
+      li {
+        list-style-type: circle;
+      }
     }
 
     li {
       color: $color-black;
-      font-size: 16px;
-      line-height: 1.63;
-      font-weight: 400;
       font-family: $font-regular;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.63;
     }
 
     ol {
@@ -343,6 +346,11 @@ body#SurveyEngineBody {
     @media (min-width: 770px) {
       padding-bottom: 0 !important;
     }
+  }
+
+  a {
+    color: $color-red;
+    text-decoration: initial;
   }
 
   label.q-checkbox.q-checked, label.q-checkbox.q-checked.q-focused {
@@ -1203,10 +1211,6 @@ h3.ui-accordion-header {
   margin-top: 2px !important;
 }
 
-.Skin .QuestionText ul li {
-  list-style-type: circle;
-}
-
 .ChoiceStructure {
   li {
     vertical-align: middle;
@@ -1243,4 +1247,3 @@ h3.ui-accordion-header {
   padding-right: 20px;
 }
 
-/* end of Rubber Cheese overrides */
