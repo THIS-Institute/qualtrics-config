@@ -1194,6 +1194,9 @@ body#SurveyEngineBody {
   .q-slider .horizontalbar .sliderToolTipBox {
     color: #ef0029 !important; }
 
+.JFEScope .ui-dialog-titlebar {
+  background: #DD0031; }
+
 .JFEScope .ui-state-active, .JFEScope .ui-widget-content .ui-state-active, .JFEScope .ui-widget-header .ui-state-active {
   border: 1px solid #DD0031;
   background: #DD0031; }
