@@ -1601,7 +1601,7 @@ body#SurveyEngineBody {
 //region jquery-ui overhides
 .JFEScope {
   & .ui-dialog-titlebar {
-    background: #DD0031;
+    background: $color-pink;
   }
 }
 //endregion
