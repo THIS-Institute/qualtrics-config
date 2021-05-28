@@ -1599,6 +1599,12 @@ body#SurveyEngineBody {
 }
 
 //region jquery-ui overhides
+//region dialog
+.ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
+  background-image: url(../images/cross-hover.svg);
+}
+//endregion
+
 .JFEScope {
   & .ui-dialog-titlebar {
     background: $color-pink;
