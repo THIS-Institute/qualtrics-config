@@ -1194,8 +1194,11 @@ body#SurveyEngineBody {
   .q-slider .horizontalbar .sliderToolTipBox {
     color: #ef0029 !important; }
 
-.ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
+.ui-button .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
   background-image: url(../images/cross-hover.svg); }
+
+.ui-icon-closethick {
+  background-position: initial; }
 
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }

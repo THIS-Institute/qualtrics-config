@@ -1600,8 +1600,11 @@ body#SurveyEngineBody {
 
 //region jquery-ui overhides
 //region dialog
-.ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
+.ui-button .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
   background-image: url(../images/cross-hover.svg);
+}
+.ui-icon-closethick {
+  background-position: initial;
 }
 //endregion
 
