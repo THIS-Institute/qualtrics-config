@@ -26,6 +26,7 @@ gulp.task('pack-css', function () {
 
 gulp.task('pack-js', function () {
     return gulp.src([
+        'assets/js/vendors/jquery.js',
         'assets/js/vendors/jquery-ui.js',
         'assets/js/iframeResizer.contentWindow.min.js',
         'assets/js/main.js',
