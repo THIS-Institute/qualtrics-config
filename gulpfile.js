@@ -1,9 +1,12 @@
 'use strict';
 
 var gulp = require('gulp');
-var concat = require('gulp-concat')
-var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var cleanCss = require('gulp-clean-css');
+var concat = require('gulp-concat');
+var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
+
 
 gulp.task('compile-sass', function () {
     return gulp.src('assets/scss/main.scss')
@@ -24,6 +27,15 @@ gulp.task('pack-css', function () {
         .pipe(gulp.dest('public/build/css'));
 });
 
+gulp.task('minify-css', function () {
+    return gulp.src([
+        'public/build/css/bundle.css'
+    ])
+        .pipe(concat('bundle.min.css'))
+        .pipe(cleanCss())
+        .pipe(gulp.dest('public/build/css'))
+});
+
 gulp.task('pack-js', function () {
     return gulp.src([
         'assets/js/vendors/jquery.js',
@@ -35,11 +47,22 @@ gulp.task('pack-js', function () {
         .pipe(gulp.dest('public/build/js'));
 });
 
-gulp.task('make-css', gulp.series('compile-sass', 'pack-css'));
+gulp.task('minify-js', function () {
+    return gulp.src([
+        'public/build/js/bundle.js'
+    ])
+        .pipe(concat('bundle.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('public/build/js'))
+});
 
-gulp.task('default', gulp.series('make-css', 'pack-js'))
+gulp.task('make-css', gulp.series('compile-sass', 'pack-css', 'minify-css'));
+
+gulp.task('make-js', gulp.series('pack-js', 'minify-js'))
+
+gulp.task('default', gulp.series('make-css', 'make-js'))
 
 gulp.task('watch', function () {
     gulp.watch('assets/scss/**/*.scss', gulp.series('make-css'));
-    gulp.watch('assets/js/**/*.js', gulp.series('pack-js'));
+    gulp.watch('assets/js/**/*.js', gulp.series('make-js'));
 });
