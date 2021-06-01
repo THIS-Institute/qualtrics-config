@@ -1,4 +1,4 @@
-/css/sample.map
+/css/main.map
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -10,7 +10,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+public/build/
 develop-eggs/
 dist/
 downloads/

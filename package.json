@@ -6,7 +6,9 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-sass": "^4.0.2"
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "jquery-ui": "file:jquery-ui-1.12.1.custom"
   },
   "devDependencies": {},
   "scripts": {

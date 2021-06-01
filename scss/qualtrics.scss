@@ -1598,22 +1598,6 @@ body#SurveyEngineBody {
   }
 }
 
-//region jquery-ui overhides
-//region dialog
-.ui-button .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
-  background-image: url(../images/cross-hover.svg);
-}
-.ui-icon-closethick {
-  background-position: initial;
-}
-//endregion
-
-.JFEScope {
-  & .ui-dialog-titlebar {
-    background: $color-pink;
-  }
-}
-//endregion
 .JFEScope .ui-state-active, .JFEScope .ui-widget-content .ui-state-active, .JFEScope .ui-widget-header .ui-state-active {
   border: 1px solid #DD0031;
   background: #DD0031;
