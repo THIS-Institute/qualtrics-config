@@ -1,0 +1,15 @@
+//region ThiscoveryBoxes
+.thiscovery-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  &.error {
+    background-color: $color-pink;
+  }
+
+  &.alert {
+    background-color: $color-yellow;
+  }
+}
+//endregion
