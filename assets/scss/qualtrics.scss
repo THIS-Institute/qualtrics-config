@@ -1643,19 +1643,3 @@ h3.ui-accordion-header {
 .ChoiceStructure li .LabelWrapper label span {
   padding-right: 20px;
 }
-
-//region ThiscoveryBoxes
-.thiscovery-box {
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-
-  &.error {
-    background-color: $color-pink;
-  }
-
-  &.alert {
-    background-color: $color-yellow;
-  }
-}
-//endregion
