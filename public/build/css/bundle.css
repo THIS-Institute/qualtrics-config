@@ -1366,7 +1366,8 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #3a3c42; }
 
-.JFEScope .PageErrorDialog .ErrorButtons button:last-child {
+.JFEScope .PageErrorDialog .ErrorButtons button {
+  font-family: "Brown-Bold", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   border-radius: 25px;
   background: #dd0031 !important;
   color: #fff;
@@ -1374,10 +1375,13 @@ body#SurveyEngineBody {
   -webkit-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in; }
-  .JFEScope .PageErrorDialog .ErrorButtons button:last-child:hover, .JFEScope .PageErrorDialog .ErrorButtons button:last-child:active, .JFEScope .PageErrorDialog .ErrorButtons button:last-child:focus {
-    background: #fff;
+  .JFEScope .PageErrorDialog .ErrorButtons button:hover, .JFEScope .PageErrorDialog .ErrorButtons button:active, .JFEScope .PageErrorDialog .ErrorButtons button:focus {
+    background: #fff !important;
     color: #dd0031;
     border-color: #dd0031; }
+  .JFEScope .PageErrorDialog .ErrorButtons button:first-child {
+    background: initial !important;
+    color: #dd0031; }
 
 #HeaderContainer {
   display: none; }

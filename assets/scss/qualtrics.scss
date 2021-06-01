@@ -80,7 +80,8 @@ body#SurveyEngineBody {
       color: $color-black;
     }
     .ErrorButtons {
-      button:last-child {
+      button {
+        font-family: $font-bold;
         border-radius: 25px;
         background: $color-red !important;
         color: #fff;
@@ -88,9 +89,14 @@ body#SurveyEngineBody {
         transition: all 0.2s ease-in;
 
         &:hover, &:active, &:focus {
-          background: #fff;
+          background: #fff !important;
           color: $color-red;
           border-color: $color-red;
+        }
+
+        &:first-child {
+          background: initial !important;
+          color: $color-red;
         }
       }
     }
