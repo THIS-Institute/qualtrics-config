@@ -1,3 +1,25 @@
+.ui-widget {
+  font-family: $font-regular;
+  & button {
+    font-family: $font-regular;
+  }
+}
+
+ui-button.ui-state-active:hover {
+  border: 1px solid $color-red;
+  background: $color-red;
+}
+
+.ui-icon-background, .ui-state-active .ui-icon-background {
+  border: $color-red;
+}
+
+.ui-widget-overlay {
+  background: $color-black;
+  opacity: .8;
+  filter: Alpha(Opacity=80); /* support: IE8 */
+}
+
 //region dialog
 .JFEScope {
   & .ui-dialog-titlebar {

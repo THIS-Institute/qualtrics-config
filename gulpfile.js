@@ -17,9 +17,7 @@ gulp.task('compile-sass', function () {
 
 gulp.task('pack-css', function () {
     return gulp.src([
-        'assets/jquery-ui-1.12.1.custom/jquery-ui.css',
-        'assets/jquery-ui-1.12.1.custom/jquery-ui.structure.css',
-        'assets/jquery-ui-1.12.1.custom/jquery-ui.theme.css',
+        'assets/css/vendors/jquery-ui.css',
         'assets/css/main.css',
     ])
         .pipe(concat('bundle.css'))
@@ -28,7 +26,7 @@ gulp.task('pack-css', function () {
 
 gulp.task('pack-js', function () {
     return gulp.src([
-        'assets/jquery-ui-1.12.1.custom/jquery-ui.js',
+        'assets/js/vendors/jquery-ui.js',
         'assets/js/iframeResizer.contentWindow.min.js',
         'assets/js/main.js',
     ])
@@ -36,9 +34,11 @@ gulp.task('pack-js', function () {
         .pipe(gulp.dest('public/build/js'));
 });
 
-gulp.task('default', gulp.series('compile-sass', 'pack-css'));
+gulp.task('make-css', gulp.series('compile-sass', 'pack-css'));
+
+gulp.task('default', gulp.series('make-css', 'pack-js'))
 
 gulp.task('watch', function () {
-    gulp.watch('assets/scss/**/*.scss', gulp.series('default'));
+    gulp.watch('assets/scss/**/*.scss', gulp.series('make-css'));
     gulp.watch('assets/js/**/*.js', gulp.series('pack-js'));
 });

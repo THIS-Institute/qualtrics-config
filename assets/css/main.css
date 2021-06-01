@@ -1243,5 +1243,23 @@ h3.ui-accordion-header {
   .thiscovery-box.alert {
     background-color: #ffd85a; }
 
+.ui-widget {
+  font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .ui-widget button {
+    font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+ui-button.ui-state-active:hover {
+  border: 1px solid #dd0031;
+  background: #dd0031; }
+
+.ui-icon-background, .ui-state-active .ui-icon-background {
+  border: #dd0031; }
+
+.ui-widget-overlay {
+  background: #3a3c42;
+  opacity: .8;
+  filter: Alpha(Opacity=80);
+  /* support: IE8 */ }
+
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }
