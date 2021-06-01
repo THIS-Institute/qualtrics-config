@@ -43,11 +43,10 @@ body#SurveyEngineBody {
   --this-bright-blue: rgb(91, 194, 231);
   --this-pale-blue: rgb(143, 172, 217);
   --this-green: rgb(0, 187, 126);
-  --this-pink: rgb(232, 156, 174);
+  --this-pink: rgb(243, 165, 185);
   --this-aubergine: rgb(108, 29, 69);
   --this-yellow: $color-yellow; }
 
-/* Rubber Cheese overrides */
 .JFEScope #SurveyEngineBody {
   height: auto; }
 
@@ -90,7 +89,7 @@ body#SurveyEngineBody {
       line-height: 1.63;
       padding-left: 10px; }
   .Skin #ProgressBar .ProgressBarFill {
-    background-color: #ffd959;
+    background-color: #ffd85a;
     height: 10px;
     border-radius: 5px; }
   .Skin #Questions {
@@ -194,12 +193,14 @@ body#SurveyEngineBody {
         margin-bottom: 0; }
     .Skin .QuestionText ul:last-child {
       margin-bottom: 0; }
+    .Skin .QuestionText ul li {
+      list-style-type: circle; }
     .Skin .QuestionText li {
       color: #3a3c42;
+      font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 16px;
-      line-height: 1.63;
       font-weight: 400;
-      font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+      line-height: 1.63; }
     .Skin .QuestionText ol {
       margin: 30px 0 0 0; }
     .Skin .QuestionText.mandatory label:before {
@@ -228,12 +229,15 @@ body#SurveyEngineBody {
     @media (min-width: 770px) {
       .Skin .QuestionBody {
         padding-bottom: 0 !important; } }
+  .Skin a {
+    color: #dd0031;
+    text-decoration: initial; }
   .Skin label.q-checkbox.q-checked, .Skin label.q-checkbox.q-checked.q-focused {
     background: url(../images/tick.svg) center center/50% no-repeat !important; }
   .Skin label.MultipleAnswer, .Skin label.SingleAnswer {
     background: #fefefe;
     border-radius: 6px;
-    padding: 13px 20px !important;
+    padding: 13px 16px !important;
     -webkit-transition: -webkit-box-shadow 400ms;
     transition: -webkit-box-shadow 400ms;
     -o-transition: box-shadow 400ms;
@@ -251,7 +255,8 @@ body#SurveyEngineBody {
       -ms-flex-align: center;
       align-items: center;
       width: 100%;
-      padding-bottom: 0 !important; }
+      padding-bottom: 0 !important;
+      padding-left: 0; }
     .Skin label.MultipleAnswer:hover, .Skin label.SingleAnswer:hover {
       -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
       box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -275,7 +280,7 @@ body#SurveyEngineBody {
       color: #3a3c42; }
       .Skin label.MultipleAnswer.q-checked > span::before, .Skin label.MultipleAnswer.q-checked.q-focused > span::before, .Skin label.SingleAnswer.q-checked > span::before, .Skin label.SingleAnswer.q-checked.q-focused > span::before {
         border-color: #dd0031 !important;
-        background: #dd0031 !important;
+        background: #dd0031 url(../images/tick.svg) no-repeat center center !important;
         outline: none !important; }
       .Skin label.MultipleAnswer.q-checked:hover, .Skin label.MultipleAnswer.q-checked.q-focused:hover, .Skin label.SingleAnswer.q-checked:hover, .Skin label.SingleAnswer.q-checked.q-focused:hover {
         -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -289,14 +294,6 @@ body#SurveyEngineBody {
         background: #fff; }
   .Skin label.MultipleAnswer > span::before {
     border-radius: 0; }
-  .Skin label.MultipleAnswer > span::after {
-    content: '';
-    background: url(../images/tick.svg) no-repeat center;
-    background-size: cover;
-    width: 10px;
-    height: 8px;
-    position: absolute;
-    left: 25px; }
   .Skin label.SingleAnswer.q-checked > span::before, .Skin label.SingleAnswer.q-checked.q-focused > span::before {
     border-color: #dd0031 !important;
     background: #dd0031 !important;
@@ -304,7 +301,8 @@ body#SurveyEngineBody {
   .Skin .MC .SAVR .QuestionBody, .Skin .MC .MAVR .QuestionBody {
     overflow: visible; }
   .Skin .MC li .LabelWrapper {
-    margin: 0 0 4px 0; }
+    margin: 0 0 4px 0;
+    padding: 0 0 0 0; }
   .Skin .MC .DL .QuestionBody {
     padding: 0 !important; }
   .Skin .MC .SACOL .ChoiceStructure {
@@ -520,7 +518,7 @@ body#SurveyEngineBody {
   .Skin .PGR .DragAndDrop .Group {
     width: 100%; }
     .Skin .PGR .DragAndDrop .Group h2 {
-      background: #ffd959;
+      background: #ffd85a;
       color: #3a3c42;
       font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
       font-size: 16px;
@@ -707,6 +705,8 @@ body#SurveyEngineBody {
   .Skin .MC .SAHR .QuestionBody table td .LabelWrapper label {
     padding-top: 50px !important;
     line-height: 1.38; }
+  .Skin .MC .SAHR li {
+    padding: 0 0 0 0; }
   .Skin label.SingleAnswer {
     display: -webkit-box;
     display: -webkit-flex;
@@ -811,7 +811,7 @@ body#SurveyEngineBody {
   border-radius: 4px;
   overflow: hidden; }
   .JFEScope .dropzone .dz-preview .dz-progress .dz-upload {
-    background: #ffd959;
+    background: #ffd85a;
     -webkit-transition: background 2s ease-in;
     -o-transition: background 2s ease-in;
     transition: background 2s ease-in; }
@@ -1202,20 +1202,14 @@ h3.ui-accordion-header {
   margin-bottom: 0 !important;
   margin-top: 2px !important; }
 
-.Skin .QuestionText ul li {
-  list-style-type: circle; }
-
 .ChoiceStructure li {
   vertical-align: middle;
-  display: flex; }
+  display: block; }
 
 .ChoiceStructure input[type=text].RankInput {
   width: 70px !important;
   padding-left: 0 !important;
   padding-right: 0 !important; }
-
-.ChoiceStructure span {
-  padding-left: 10px; }
 
 .ChoiceStructure .LabelWrapper {
   display: -webkit-inline-box;
@@ -1227,9 +1221,45 @@ h3.ui-accordion-header {
   -ms-flex-align: center;
   align-items: center;
   width: auto !important; }
-  .ChoiceStructure .LabelWrapper label {
-    padding-right: 20px; }
   .ChoiceStructure .LabelWrapper .TextEntryBox {
     height: auto; }
 
-/* end of Rubber Cheese overrides */
+.ChoiceStructure li .LabelWrapper span {
+  padding-left: 10px; }
+
+.ChoiceStructure li .LabelWrapper .LabelPositionSIDE span {
+  padding-left: 0;
+  padding-right: 0 !important; }
+
+.ChoiceStructure li .LabelWrapper label span {
+  padding-right: 20px; }
+
+.thiscovery-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .thiscovery-box.error {
+    background-color: #f3a5b9; }
+  .thiscovery-box.alert {
+    background-color: #ffd85a; }
+
+.ui-widget {
+  font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  .ui-widget button {
+    font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+ui-button.ui-state-active:hover {
+  border: 1px solid #dd0031;
+  background: #dd0031; }
+
+.ui-icon-background, .ui-state-active .ui-icon-background {
+  border: #dd0031; }
+
+.ui-widget-overlay {
+  background: #3a3c42;
+  opacity: .8;
+  filter: Alpha(Opacity=80);
+  /* support: IE8 */ }
+
+.JFEScope .ui-dialog-titlebar {
+  background: #f3a5b9; }
