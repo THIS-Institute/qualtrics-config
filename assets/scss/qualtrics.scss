@@ -75,6 +75,8 @@ body#SurveyEngineBody {
     height: auto;
   }
   .PageErrorDialog {
+    border-radius: 10px;
+
     .ErrorContainer {
       font-family: $font-regular;
       color: $color-black;
