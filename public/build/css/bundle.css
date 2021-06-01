@@ -1362,6 +1362,9 @@ body#SurveyEngineBody {
 .JFEScope #SurveyEngineBody {
   height: auto; }
 
+.JFEScope .PageErrorDialog .ErrorContainer {
+  font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
 #HeaderContainer {
   display: none; }
 
@@ -2546,15 +2549,6 @@ h3.ui-accordion-header {
 .ChoiceStructure li .LabelWrapper label span {
   padding-right: 20px; }
 
-.thiscovery-box {
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 10px; }
-  .thiscovery-box.error {
-    background-color: #f3a5b9; }
-  .thiscovery-box.alert {
-    background-color: #ffd85a; }
-
 .ui-widget {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
   .ui-widget button {
@@ -2575,3 +2569,12 @@ ui-button.ui-state-active:hover {
 
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }
+
+.thiscovery-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .thiscovery-box.error {
+    background-color: #f3a5b9; }
+  .thiscovery-box.alert {
+    background-color: #ffd85a; }

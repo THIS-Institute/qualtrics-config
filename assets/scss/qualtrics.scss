@@ -70,8 +70,15 @@ body#SurveyEngineBody {
   --this-yellow: $color-yellow;
 }
 
-.JFEScope #SurveyEngineBody {
-  height: auto;
+.JFEScope {
+  #SurveyEngineBody {
+    height: auto;
+  }
+  .PageErrorDialog {
+    .ErrorContainer {
+      font-family: $font-regular;
+    }
+  }
 }
 
 #HeaderContainer {
