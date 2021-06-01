@@ -68,6 +68,7 @@ body#SurveyEngineBody {
     color: #dd0031;
     border-color: #dd0031; }
   .JFEScope .PageErrorDialog .ErrorButtons button:first-child {
+    font-family: Poppins, Arial, sans-serif;
     background: initial !important;
     color: #dd0031; }
 
