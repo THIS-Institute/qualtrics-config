@@ -1378,7 +1378,8 @@ body#SurveyEngineBody {
   .JFEScope .PageErrorDialog .ErrorButtons button:hover, .JFEScope .PageErrorDialog .ErrorButtons button:active, .JFEScope .PageErrorDialog .ErrorButtons button:focus {
     background: #fff !important;
     color: #dd0031;
-    border-color: #dd0031; }
+    border-color: #dd0031;
+    outline: initial; }
   .JFEScope .PageErrorDialog .ErrorButtons button:first-child {
     font-family: Poppins, Arial, sans-serif;
     background: initial !important;

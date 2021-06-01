@@ -92,6 +92,7 @@ body#SurveyEngineBody {
           background: #fff !important;
           color: $color-red;
           border-color: $color-red;
+          outline: initial;
         }
 
         &:first-child {
