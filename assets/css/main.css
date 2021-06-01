@@ -54,6 +54,23 @@ body#SurveyEngineBody {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #3a3c42; }
 
+.JFEScope .PageErrorDialog .ErrorButtons button {
+  border-radius: 25px;
+  background: #dd0031;
+  color: #fff;
+  border: 2px solid #dd0031;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  padding: 15px 40px; }
+  .JFEScope .PageErrorDialog .ErrorButtons button:hover, .JFEScope .PageErrorDialog .ErrorButtons button:active, .JFEScope .PageErrorDialog .ErrorButtons button:focus {
+    background: #fff;
+    color: #dd0031;
+    border-color: #dd0031; }
+
 #HeaderContainer {
   display: none; }
 
@@ -236,22 +253,6 @@ body#SurveyEngineBody {
   .Skin a {
     color: #dd0031;
     text-decoration: initial; }
-  .Skin button {
-    border-radius: 25px;
-    background: #dd0031;
-    color: #fff;
-    border: 2px solid #dd0031;
-    -webkit-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
-    font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: normal;
-    padding: 15px 40px; }
-    .Skin button:hover, .Skin button:active, .Skin button:focus {
-      background: #fff;
-      color: #dd0031;
-      border-color: #dd0031; }
   .Skin label.q-checkbox.q-checked, .Skin label.q-checkbox.q-checked.q-focused {
     background: url(../images/tick.svg) center center/50% no-repeat !important; }
   .Skin label.MultipleAnswer, .Skin label.SingleAnswer {
