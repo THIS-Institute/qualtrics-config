@@ -1362,6 +1362,30 @@ body#SurveyEngineBody {
 .JFEScope #SurveyEngineBody {
   height: auto; }
 
+.JFEScope .PageErrorDialog {
+  border-radius: 10px; }
+  .JFEScope .PageErrorDialog .ErrorContainer {
+    font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #3a3c42; }
+  .JFEScope .PageErrorDialog .ErrorButtons button {
+    font-family: "Brown-Bold", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 25px;
+    background: #dd0031 !important;
+    color: #fff;
+    border: 2px solid #dd0031;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in; }
+    .JFEScope .PageErrorDialog .ErrorButtons button:hover, .JFEScope .PageErrorDialog .ErrorButtons button:active, .JFEScope .PageErrorDialog .ErrorButtons button:focus {
+      background: #fff !important;
+      color: #dd0031;
+      border-color: #dd0031;
+      outline: initial; }
+    .JFEScope .PageErrorDialog .ErrorButtons button:first-child {
+      font-family: Poppins, Arial, sans-serif;
+      background: initial !important;
+      color: #dd0031; }
+
 #HeaderContainer {
   display: none; }
 
@@ -2546,15 +2570,6 @@ h3.ui-accordion-header {
 .ChoiceStructure li .LabelWrapper label span {
   padding-right: 20px; }
 
-.thiscovery-box {
-  padding: 20px;
-  margin-top: 30px;
-  margin-bottom: 10px; }
-  .thiscovery-box.error {
-    background-color: #f3a5b9; }
-  .thiscovery-box.alert {
-    background-color: #ffd85a; }
-
 .ui-widget {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
   .ui-widget button {
@@ -2575,3 +2590,12 @@ ui-button.ui-state-active:hover {
 
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }
+
+.thiscovery-box {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px; }
+  .thiscovery-box.error {
+    background-color: #f3a5b9; }
+  .thiscovery-box.alert {
+    background-color: #ffd85a; }

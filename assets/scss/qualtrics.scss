@@ -70,8 +70,41 @@ body#SurveyEngineBody {
   --this-yellow: $color-yellow;
 }
 
-.JFEScope #SurveyEngineBody {
-  height: auto;
+.JFEScope {
+  #SurveyEngineBody {
+    height: auto;
+  }
+  .PageErrorDialog {
+    border-radius: 10px;
+
+    .ErrorContainer {
+      font-family: $font-regular;
+      color: $color-black;
+    }
+    .ErrorButtons {
+      button {
+        font-family: $font-bold;
+        border-radius: 25px;
+        background: $color-red !important;
+        color: #fff;
+        border: 2px solid $color-red;
+        transition: all 0.2s ease-in;
+
+        &:hover, &:active, &:focus {
+          background: #fff !important;
+          color: $color-red;
+          border-color: $color-red;
+          outline: initial;
+        }
+
+        &:first-child {
+          font-family: Poppins, Arial, sans-serif;
+          background: initial !important;
+          color: $color-red;
+        }
+      }
+    }
+  }
 }
 
 #HeaderContainer {
