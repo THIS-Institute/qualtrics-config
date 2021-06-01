@@ -1243,21 +1243,5 @@ h3.ui-accordion-header {
   .thiscovery-box.alert {
     background-color: #ffd85a; }
 
-.ui-button {
-  border: 1px solid white;
-  background: white;
-  -webkit-transition: background-color .25s ease;
-  -o-transition: background-color .25s ease;
-  transition: background-color .25s ease; }
-  .ui-button:hover {
-    background: #3a3c42; }
-
-.ui-button .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
-  background-image: url(../images/cross-hover.svg);
-  scale: 75%; }
-
-.ui-icon-closethick {
-  background-position: initial; }
-
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }

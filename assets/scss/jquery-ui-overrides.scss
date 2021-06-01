@@ -1,23 +1,7 @@
 //region dialog
-.ui-button {
-  border: 1px solid white;
-  background: white;
-  transition: background-color .25s ease;
-  &:hover {
-    background: $color-black;
-  }
-}
-.ui-button .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon {
-  background-image: url(../images/cross-hover.svg);
-  scale: 75%;
-}
-.ui-icon-closethick {
-  background-position: initial;
-}
-//endregion
-
 .JFEScope {
   & .ui-dialog-titlebar {
     background: $color-pink;
   }
 }
+//endregion
