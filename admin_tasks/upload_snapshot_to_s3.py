@@ -27,8 +27,22 @@ from thiscovery_lib.ssm_utilities import SsmClient
 BASE_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 FILES_TO_TRANSFER = [
-    ("css", "sample.css"),
+    (os.path.join("public", "build", "css"), "bundle.css"),
+    (os.path.join("public", "build", "css"), "bundle.min.css"),
+    (os.path.join("public", "build", "css", "images"), "ui-icons_444444_256x240.png"),
+    (os.path.join("public", "build", "css", "images"), "ui-icons_555555_256x240.png"),
+    (os.path.join("public", "build", "css", "images"), "ui-icons_777620_256x240.png"),
+    (os.path.join("public", "build", "css", "images"), "ui-icons_777777_256x240.png"),
+    (os.path.join("public", "build", "css", "images"), "ui-icons_cc0000_256x240.png"),
+    (os.path.join("public", "build", "css", "images"), "ui-icons_ffffff_256x240.png"),
+    (os.path.join("public", "build", "js"), "bundle.js"),
+    (os.path.join("public", "build", "js"), "bundle.min.js"),
 ]
+
+ext_to_content_type_map = {
+    "css": "text/css",
+    "js": "application/x-javascript",
+}
 
 
 class S3transferManager:
@@ -53,11 +67,16 @@ class S3transferManager:
         transfer_client = Transfer()
         self.logger.debug("Bucket", extra={"bucket_name": self.bucket_name})
         for folder, file in FILES_TO_TRANSFER:
+            ext = os.path.splitext(file)[1].lstrip(".")
+            kwargs = {"Metadata": {"revision": revision}}
+            content_type = ext_to_content_type_map.get(ext)
+            if content_type:
+                kwargs.update({"ContentType": content_type})
             transfer_client.upload_public_file(
                 file_path=os.path.join(BASE_DIR, folder, file),
                 bucket_name=self.bucket_name,
-                s3_path=f"{s3_folder_name}/{file}",
-                **{"Metadata": {"revision": revision}},
+                s3_path=f"{s3_folder_name}/{folder}/{file}",
+                **kwargs,
             )
 
 
