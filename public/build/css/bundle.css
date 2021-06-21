@@ -1567,7 +1567,8 @@ body#SurveyEngineBody {
         padding-bottom: 0 !important; } }
   .Skin a {
     color: #dd0031;
-    text-decoration: initial; }
+    text-decoration: initial;
+    cursor: pointer; }
   .Skin label.q-checkbox.q-checked, .Skin label.q-checkbox.q-checked.q-focused {
     background: url(../images/tick.svg) center center/50% no-repeat !important; }
   .Skin label.MultipleAnswer, .Skin label.SingleAnswer {
@@ -2575,7 +2576,7 @@ h3.ui-accordion-header {
   .ui-widget button {
     font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
-ui-button.ui-state-active:hover {
+.ui-button:active, .ui-button.ui-state-active:hover {
   border: 1px solid #dd0031;
   background: #dd0031; }
 
@@ -2590,6 +2591,9 @@ ui-button.ui-state-active:hover {
 
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }
+
+.ui-dialog-titlebar-close:focus-visible {
+  outline: none; }
 
 .thiscovery-box {
   padding: 20px;

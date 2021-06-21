@@ -5,7 +5,7 @@
   }
 }
 
-ui-button.ui-state-active:hover {
+.ui-button:active, .ui-button.ui-state-active:hover {
   border: 1px solid $color-red;
   background: $color-red;
 }
@@ -25,5 +25,9 @@ ui-button.ui-state-active:hover {
   & .ui-dialog-titlebar {
     background: $color-pink;
   }
+}
+
+.ui-dialog-titlebar-close:focus-visible {
+  outline: none;
 }
 //endregion
