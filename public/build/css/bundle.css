@@ -1774,7 +1774,6 @@ body#SurveyEngineBody {
   .Skin .QuestionOuter .Inner {
     border: none; }
   .Skin .ValidationError {
-    background-position: left center;
     line-height: 2;
     padding: 0; }
     @media (max-width: 770px) {
