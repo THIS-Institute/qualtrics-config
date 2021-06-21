@@ -394,6 +394,7 @@ body#SurveyEngineBody {
   a {
     color: $color-red;
     text-decoration: initial;
+    cursor: pointer;
   }
 
   label.q-checkbox.q-checked, label.q-checkbox.q-checked.q-focused {
