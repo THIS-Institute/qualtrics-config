@@ -26,4 +26,8 @@ ui-button.ui-state-active:hover {
     background: $color-pink;
   }
 }
+
+.ui-dialog-titlebar-close:focus-visible {
+  outline: none;
+}
 //endregion

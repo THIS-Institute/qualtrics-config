@@ -1279,6 +1279,9 @@ ui-button.ui-state-active:hover {
 .JFEScope .ui-dialog-titlebar {
   background: #f3a5b9; }
 
+.ui-dialog-titlebar-close:focus-visible {
+  outline: none; }
+
 .thiscovery-box {
   padding: 20px;
   margin-top: 30px;
