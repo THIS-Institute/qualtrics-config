@@ -5,7 +5,7 @@
   }
 }
 
-ui-button.ui-state-active:hover {
+.ui-button:active, .ui-button.ui-state-active:hover {
   border: 1px solid $color-red;
   background: $color-red;
 }
