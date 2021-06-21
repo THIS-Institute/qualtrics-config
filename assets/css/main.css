@@ -467,6 +467,10 @@ body#SurveyEngineBody {
     @media (max-width: 770px) {
       .Skin .ValidationError {
         margin-left: 0 !important; } }
+  .Skin .RO .DND .rank {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; }
   .Skin .RO .DND ul li {
     background: #fefefe;
     border-radius: 6px;
