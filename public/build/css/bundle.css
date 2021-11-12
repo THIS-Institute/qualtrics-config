@@ -1386,9 +1386,6 @@ body#SurveyEngineBody {
       background: initial !important;
       color: #dd0031; }
 
-#HeaderContainer {
-  display: none; }
-
 .Skin {
   font-family: "Brown-Regular", sans-serif, Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
@@ -1432,7 +1429,7 @@ body#SurveyEngineBody {
     overflow: visible; }
   .Skin .QuestionOuter {
     overflow: visible;
-    padding-bottom: 100px; }
+    padding-bottom: 30px; }
   .Skin .InnerInner > fieldset > legend {
     margin-bottom: 0 !important; }
   .Skin .DB .QuestionText {
@@ -1774,12 +1771,15 @@ body#SurveyEngineBody {
   .Skin .QuestionOuter .Inner {
     border: none; }
   .Skin .ValidationError {
-    background-position: left center;
     line-height: 2;
     padding: 0; }
     @media (max-width: 770px) {
       .Skin .ValidationError {
         margin-left: 0 !important; } }
+  .Skin .RO .DND .rank {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0; }
   .Skin .RO .DND ul li {
     background: #fefefe;
     border-radius: 6px;
