@@ -1591,6 +1591,8 @@ body#SurveyEngineBody {
       width: 100%;
       padding-bottom: 0 !important;
       padding-left: 0; }
+    .Skin label.MultipleAnswer:hover, .Skin label.SingleAnswer:hover {
+      background: #fff; }
     .Skin label.MultipleAnswer > span::before, .Skin label.SingleAnswer > span::before {
       border-color: #dd0031;
       left: initial;

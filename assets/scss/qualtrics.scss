@@ -413,6 +413,10 @@ body#SurveyEngineBody {
       padding-left: 0;
     }
 
+    &:hover {
+      background: #fff;
+    }
+
     > span::before {
       border-color: $color-red;
       left: initial;
