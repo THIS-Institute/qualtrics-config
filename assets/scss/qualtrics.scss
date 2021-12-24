@@ -59,7 +59,7 @@ body#SurveyEngineBody {
 
 li {
   &.Selection {
-    background: #fefefe;
+    background: initial;
     border-radius: 6px;
     -webkit-transition: -webkit-box-shadow .4s;
     transition: -webkit-box-shadow .4s;
@@ -1088,7 +1088,7 @@ li {
 
 .Selection {
   &.reg, &.alt {
-    background: #fefefe;
+    background: initial;
     border-radius: 6px;
     -webkit-transition: -webkit-box-shadow .4s;
     transition: -webkit-box-shadow .4s;
