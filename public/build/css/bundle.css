@@ -1347,6 +1347,19 @@ body#SurveyEngineBody {
   color: #3a3c42;
   background: #efefee; }
 
+li.Selection {
+  background: #fefefe;
+  border-radius: 6px;
+  -webkit-transition: -webkit-box-shadow .4s;
+  transition: -webkit-box-shadow .4s;
+  -o-transition: box-shadow .4s;
+  transition: box-shadow .4s;
+  transition: box-shadow .4s, -webkit-box-shadow .4s; }
+  li.Selection:hover {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background: #fff; }
+
 /* define official THIS colours */
 :root {
   --this-dark-grey: rgb(83, 86, 90);
