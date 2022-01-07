@@ -35,6 +35,19 @@ body#SurveyEngineBody {
   color: #3a3c42;
   background: #efefee; }
 
+li.Selection {
+  background: initial;
+  border-radius: 6px;
+  -webkit-transition: -webkit-box-shadow .4s;
+  transition: -webkit-box-shadow .4s;
+  -o-transition: box-shadow .4s;
+  transition: box-shadow .4s;
+  transition: box-shadow .4s, -webkit-box-shadow .4s; }
+  li.Selection:hover {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background: #fff; }
+
 /* define official THIS colours */
 :root {
   --this-dark-grey: rgb(83, 86, 90);
@@ -257,7 +270,7 @@ body#SurveyEngineBody {
   .Skin label.q-checkbox.q-checked, .Skin label.q-checkbox.q-checked.q-focused {
     background: url(../images/tick.svg) center center/50% no-repeat !important; }
   .Skin label.MultipleAnswer, .Skin label.SingleAnswer {
-    background: #fefefe;
+    background: initial;
     border-radius: 6px;
     padding: 13px 16px !important;
     -webkit-transition: -webkit-box-shadow 400ms;
@@ -280,8 +293,6 @@ body#SurveyEngineBody {
       padding-bottom: 0 !important;
       padding-left: 0; }
     .Skin label.MultipleAnswer:hover, .Skin label.SingleAnswer:hover {
-      -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
       background: #fff; }
     .Skin label.MultipleAnswer > span::before, .Skin label.SingleAnswer > span::before {
       border-color: #dd0031;
@@ -305,8 +316,6 @@ body#SurveyEngineBody {
         background: #dd0031 url(../images/tick.svg) no-repeat center center !important;
         outline: none !important; }
       .Skin label.MultipleAnswer.q-checked:hover, .Skin label.MultipleAnswer.q-checked.q-focused:hover, .Skin label.SingleAnswer.q-checked:hover, .Skin label.SingleAnswer.q-checked.q-focused:hover {
-        -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
         background: #fff; }
     .Skin label.MultipleAnswer.q-focused, .Skin label.SingleAnswer.q-focused {
       background: #fefefe;
@@ -783,6 +792,19 @@ body#SurveyEngineBody {
     background: #fff; } }
 
 /* End .Skin */
+.Selection.reg, .Selection.alt {
+  background: initial;
+  border-radius: 6px;
+  -webkit-transition: -webkit-box-shadow .4s;
+  transition: -webkit-box-shadow .4s;
+  -o-transition: box-shadow .4s;
+  transition: box-shadow .4s;
+  transition: box-shadow .4s, -webkit-box-shadow .4s; }
+  .Selection.reg:hover, .Selection.alt:hover {
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    background: #fff; }
+
 .JFEScope .dropzone:not(.dz-max-files-reached):hover, .JFEScope .dropzone.dz-drag-hover {
   background: #fff; }
 
