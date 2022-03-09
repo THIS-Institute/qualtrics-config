@@ -1251,7 +1251,7 @@ h3.ui-accordion-header {
 
 .ChoiceStructure li {
   vertical-align: middle;
-  display: block; }
+  display: list-item; }
 
 .ChoiceStructure input[type=text].RankInput {
   width: 70px !important;
